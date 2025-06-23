@@ -31,6 +31,11 @@ declare module 'glob' {
     export = anyGlob;
 }
 
+declare module 'minimatch' {
+    const anyMinimatch: any;
+    export = anyMinimatch;
+}
+
 declare module 'nunjucks' {
     var nunjucks: any;
     export = nunjucks;
