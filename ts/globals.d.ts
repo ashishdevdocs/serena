@@ -30,3 +30,8 @@ declare module 'glob' {
     const anyGlob: any;
     export = anyGlob;
 }
+
+declare module 'nunjucks' {
+    var nunjucks: any;
+    export = nunjucks;
+}
